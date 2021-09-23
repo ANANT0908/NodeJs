@@ -1,4 +1,4 @@
- const { add,sub,mul } = require('./oper');
+ const { add,sub,mul,name } = require('./oper');
  
 
 // console.log(oper);
@@ -8,4 +8,4 @@ console.log(mul(5,3));
 
 
 
-// console.log(name);
+console.log(name);

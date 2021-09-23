@@ -15,4 +15,4 @@ const name = "Anant";
 // module.exports.add = add;
 // module.exports.sub = sub;
 
-module.exports = {add,sub,mul}
+module.exports = {add,sub,mul,name}
