@@ -16,7 +16,7 @@ server.on("request", (req,res)=>{
     rstream.on("data" , (chunkData)=>{
         res.write(chunkData);
     });
-    res.on("end" ,()=>{
+    rstream.on("end" ,()=>{
         res.end();
     });
     rstream.on("error" ,(err)=>{
@@ -25,4 +25,4 @@ server.on("request", (req,res)=>{
     });
 });
 
-server.listen(3000,"127.0.0.1");
+server.listen(8000,"127.0.0.1");
